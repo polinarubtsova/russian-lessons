@@ -1,0 +1,129 @@
+body {
+	background-color: white;
+	color: hotpink;
+	font-family: initial;
+	font-size: 20px;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+
+h1 { 
+	color: hotpink;
+	font-size: 40px;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+p {
+	font-size: 20px;
+}
+
+a{
+	text-decoration: underline;
+	color: lightpink;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: limegreen;
+}
+
+#profile {
+	width: 180px;
+	border-radius: 50%;
+}
+
+
+
+
+div {
+	margin: 10px auto;
+	text-align: center;
+}
+
+@media(max-width: 960px){
+	.container{
+		width: 800px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.container {
+		width: 1000px;
+	}
+}
+
+
+
+#card-pink {
+	background: lavenderblush;
+	border: solid hotpink;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#card-pink p {
+	margin-top: 5px;
+	margin-bottom: 30px;
+	font-size: 15px;
+}
+
+.card-white{
+	border: solid lightpink;
+	border-radius: 10px;
+}
+
+.btn-pink {
+	background-color: lightpink;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 6px;
+}
+
+.btn-pink:hover {
+	background-color: hotpink;
+	color: white;
+	}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: lightpink;
+}
+
+.list-inline i:hover{
+	color: hotpink;
+}
+
+
+
+
+
+
+
+
+
+
+
